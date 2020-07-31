@@ -1,7 +1,10 @@
 import fs from "fs-extra";
 import path from "path";
 
+// target steam user folder
 const _steamUserFolder:string="C:/Program Files (x86)/Steam/userdata/88938168";
+
+// backup output folder name
 const _backupOutput="steambackup";
 
 function main():void
