@@ -5,7 +5,7 @@ import path from "path";
 const _steamUserFolder:string="C:/Program Files (x86)/Steam/userdata/88938168";
 
 // backup output folder name
-const _backupOutput="steambackup";
+const _backupOutput:string="backup";
 
 function main():void
 {
