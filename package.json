@@ -1,0 +1,16 @@
+{
+  "name": "steambackup",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build":"tsc",
+    "buildrun":"tsc && node build/steambackup",
+    "watch":"tsc --watch"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
