@@ -5,7 +5,8 @@
   "scripts": {
     "build":"tsc",
     "buildrun":"tsc && node build/steambackup",
-    "watch":"tsc --watch"
+    "watch":"tsc --watch",
+    "run":"node build/steambackup"
   },
   "dependencies": {
     "fs-extra": "^9.0.1"
